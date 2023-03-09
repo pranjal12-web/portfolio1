@@ -1,0 +1,82 @@
+.navbar
+{
+    background-color: aqua;
+    height: 80px;
+}
+.navbar li
+{
+    float:right;
+    list-style:none;
+}
+.navbar li a
+{
+    padding: 13px 13px;
+    font-size: 40px;
+    
+    
+}
+.navbar ul
+{
+    overflow: auto;
+}
+.btn{
+    border-radius: 30px;
+    color: beige;
+    border-style: solid;
+    margin-left: 15px;
+    margin-top: 8px;
+    padding:8px 8px;
+    
+}
+.btn a:hover{
+    color: black;
+}
+.p1{
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(15, 15, 14);
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 20px 30px;
+  border-radius: 150px;
+    
+}
+.bg{
+    /* The image used */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpmBFzzsK_FzF0pNrRjBE76aCpBpIwft3F-PDtdKzeEa8alqlz1p1vhTLDSiCrL0ACm-c&usqp=CAU");
+
+  /* Full height */
+  height: 450px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.liq{
+    font-size: 40px;
+}
+.lis{
+    font-size: 40px;
+}
+.back{
+    color:white;
+    padding: 15px 15px;
+    background-color: rgb(49, 49, 174);
+    position: absolute;
+    top: 90%;
+    border-radius: 150px;
+
+}
+.img{
+
+    border-radius: 50%;
+   
+    height: 550px;
+    width: 450px;
+    
+}
